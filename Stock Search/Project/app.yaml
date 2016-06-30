@@ -1,0 +1,53 @@
+runtime: php55
+api_version: 1
+version: 5
+handlers:
+- url: /index.php
+  script: index.php
+
+- url: /favorites.js
+  static_files: favorites.js
+  upload: favorites.js
+
+- url: /highcharts.js
+  static_files: highcharts.js
+  upload: highcharts.js
+
+- url: /highstock.js
+  static_files: highstock.js
+  upload: highstock.js
+
+- url: /homepage.html
+  static_files: homepage.html
+  upload: homepage.html
+
+- url: /fb_logo.png
+  static_files: fb_logo.png
+  upload: fb_logo.png
+
+- url: /jquery-1.12.1.js
+  static_files: jquery-1.12.1.js
+  upload: jquery-1.12.1.js
+
+- url: /jquery-ui.min.css
+  static_files: jquery-ui.min.css
+  upload: jquery-ui.min.css
+
+- url: /mod-logo.png
+  static_files: mod-logo.png
+  upload: mod-logo.png
+
+- url: /moment.js
+  static_files: moment.js
+  upload: moment.js
+
+- url: /styles.css
+  static_files: styles.css
+  upload: styles.css
+
+- url: /chart.html
+  static_files: chart.html
+  upload: chart.html
+
+
+

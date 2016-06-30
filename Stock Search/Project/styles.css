@@ -1,0 +1,43 @@
+
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+}
+.mod {
+    float: right;
+}
+.fl {
+    padding-right: 65px;
+}
+
+
+
+.nav {
+    border: none !important;
+    background: white !important;
+    margin: 10px !important;
+}
+.nav > li > a {
+    background-color: white !important;
+    color:#6FA0CC !important;
+    border: none !important;
+}
+.nav > .active > a, nav > .active > a:focus, .nav > .active > a:hover {
+    background-color:#6FA0CC !important;
+    color: white !important;
+}
+
+.form-group .control-label {
+    display: inline-block;
+    vertical-align: middle;
+}
+.form-group .form-control {
+    display: inline-block;
+    vertical-align: middle;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.row {
+    clear: both;
+}
